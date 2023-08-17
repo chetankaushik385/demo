@@ -1,0 +1,25 @@
+
+#back-img{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfSD6Enf4hFvwdjSwGSWPsvX26e-LBBStsLXbhegVBaivuBBrkMzaiZSN21CgXTKXjwrQ&usqp=CAU");
+    margin:50px 100px;
+    padding:160px 100px;
+    border:3px solid rgb(199, 54, 54);
+    background-repeat:no-repeat;
+    background-size:     cover;
+}
+
+
+
+.digital-style{
+    color:white;
+     font-weight:
+      bold; font-size:
+       45px; width:50px;
+}
+
+li{
+    list-style:none;
+    float:left;
+    
+    text-decoration:none;
+}
