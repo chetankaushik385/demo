@@ -1,0 +1,41 @@
+.container{
+    border:1px solid grey;
+    display:flex;
+    height:100vh;
+     background-color:bisque;    
+   /* margin:auto;*/
+    
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.item{
+    /*border:2px solid black;*/
+    width:350px;
+    height: 350px;
+    background-color:white;   
+}
+
+
+
+.sub-item{
+    padding:5px;
+    margin-top:40px;
+    margin-left:40px;
+    width:90px;
+    border:1px solid black;
+}
+
+.item-para{
+    padding:20px;
+    padding-top:30px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+div a{
+    padding-left:30px;
+    font-size:18px;
+    color:red;
+}

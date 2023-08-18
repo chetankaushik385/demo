@@ -1,0 +1,50 @@
+.flex-container{
+    display:flex;
+    border:2px solid grey;
+    height:45vh;
+    /*flex-direction:column;*/
+    /*flex-direction:column-reverse;*/
+    /*justify-content:center; */              /*to be horizontally incenter of content*/
+   /* justify-content:flex-end!important;   -->to be set horizontally in end  
+    
+
+    */
+    justify-content:space-around;
+    align-items:center;
+
+     flex-wrap:wrap;        
+        /*flex-wrap:wrap;*/
+
+        /*
+         justify-content:space-evenly;   -->to be set horizontally in evenly space
+         justify-content:space-between;  -->to be set horizontally in starting to end by space
+
+    */
+    /*
+    
+    justify-content:flex-start;  -->to be set horizontally in start 
+    justify-content:flex-end;     -->to be set horizontally in end 
+    */ 
+      
+    /*
+    align-items:center;  -->to be set vertically in center 
+     align-items:flex-end;   -->to be set vertically in end 
+    */
+}
+
+.item{
+    border:2px solid black;
+    background-color:red;
+    margin:10px;
+    width:125px;
+    height:125px;
+}
+
+.item2{
+    flex-grow:3;
+
+}
+
+.item3{
+    flex-shrink:3;
+}
