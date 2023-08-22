@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital agency layout</title>
     <link rel="stylesheet" href="digital_agency.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="back-img" id="first">
         <nav class="navbar">
             <div class="left">
-                <img src="#">
+                <i class="fa-solid fa-globe"></i>
                 LITHO
             </div>
             <div class="main-menu">
@@ -26,9 +28,10 @@
                  
             </div>
             <div class="right">
-                <i class="fa-brands fa-twitter">1</i>
-                <i class="fa-brands fa-twitter">2</i>
-                <i class="fa-brands fa-twitter">3</i>
+                
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
             </div>
         </nav>
           <div class="container2">
@@ -170,7 +173,69 @@
         </div>
 
         <div class="seventh">
-            123
+             <div class="seventh-a">
+                <img src="data:image/jpeg;base64,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"
+                >
+             </div>
+             <div class="seventh-b">
+                <div class="seventh-b1">
+                    <h1 >&#8592;</h1>
+                </div>
+                <div class="seventh-b2">
+                    <p>Learn how hybrid teams use Google's collaboration 
+                        tools to get things done. You'll find everything you 
+                        need to start using apps like Gmail, Docs,
+                        how hybrid teams use Google's collaboration 
+                        tools to get things done. 
+                    </p>
+                </div>
+                <div class="seventh-b3">
+                    <h1 >&#8594;</h1>
+                </div>
+             </div>
+             <div class="seventh-c">
+                <h1>ALEXANDER HARDVARD</h1>
+                <p>CREATIVE DIRECTOR</p>
+             </div>
+
+             <div class="seventh-d">
+                    <div class="seventh-d1 sev-all">
+                        <i class="fa-solid fa-coins"></i>Magento</div>
+                    <div class="seventh-d2 sev-all">colorlib.</div>
+                    <div class="seventh-d3 sev-all">pingdom</div>
+                    <div class="seventh-d4 sev-all">Google</div>
+             </div>
         </div>
+           
+        <div class="eight">
+              <div class="eight-a">
+                <div class="let">Latest stories</div>
+                <div class="anch"><a href="#">ALL STORIES</a></div>  
+              </div>
+
+              <div class="eight-b">
+                    
+                <div class="item item1 ">
+                    <div class="creative sub-item">CREATIVE</div>
+                        <p class="item-para">Design can speak in the tongue<br> of art force of commerce</p>
+                        <a href="#">Continue Reading</a>
+                </div>
+                <div class="item item2">
+                    <div class="concept sub-item">CONCEPT</div>
+                        <p class="item-para">Design can speak in the tongue <br>of art force of commerce</p>
+                        <a href="#">Continue Reading</a>
+         
+                </div>
+                <div class="item item3">
+                    <div class="modern sub-item">MODERN</div>
+                        <p class="item-para">Design can speak in the tongue<br> of art force of commerce</p>
+                        <a href="#">Continue Reading</a>
+                </div>
+             
+             </div>
+        </div>
+         
+        <div class="finish"></div>
+        
 </body>
 </html>
