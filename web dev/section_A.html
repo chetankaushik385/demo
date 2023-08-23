@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+             .outer{
+                border:1px solid red;
+                padding:120px 0px;
+                background-color: burlywood;
+             }
+
+           .container{
+            
+            background-color:azure;
+            width:1000px;
+            display:flex;
+            flex-direction:column;
+            flex-wrap:wrap;
+             margin:0px auto;
+           }
+
+           .nav-bar{
+            background-color:burlywood;
+            
+            display:flex;
+            flex-direction:row;
+             flex-wrap:wrap;
+             justify-content:space-between;
+             align-items:center;
+             
+             
+           }
+
+           .let{
+               font-size:22px;
+           }
+
+           .all a{
+            font-size:19px;
+            color:black;
+            font-weight:bolder;
+           }
+
+           .item{
+            
+            display:flex;
+            
+            flex-direction:row;
+            background-color: burlywood;
+            margin:0px auto;
+            
+            /*flex-wrap:wrap-reverse;*/
+           }
+
+           .sub-item{
+            margin:10px;
+            background-color:azure;
+            padding:30px;
+           
+            
+           }
+
+           .item .sub-item .create{
+            border:1px solid black;
+            width:90px;
+            padding:5px;
+            margin-bottom:20px;
+           }
+
+           .item .sub-item p{
+            margin-bottom:20px;
+           }
+
+           .item .sub-item a{
+            margin-bottom:20px;
+           }
+    </style>
+</head>
+<body>
+       <div class="outer">
+               
+      <div class="container">
+        <div class="nav-bar">
+              <div class="let">
+                 <h1>Latest stories</h1>
+              </div>
+              <div class="all">
+                 <a href="3">ALL STORIES</a>
+              </div>
+        </div>
+        <div class="item">
+             <div class="sub-item">
+                 <div class="create">Creative</div>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat provident minus mollitia, 
+                     et reprehenderit quibusdam laborum voluptatibus alias nobis 
+                     cupiditate, corrupti pariatur aperiam at incidunt!</p>
+                     <a href="#">Continue reading</a>
+             </div>
+             <div class="sub-item">
+                 <div class="create">Concept</div>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat provident minus mollitia, 
+                     et reprehenderit quibusdam laborum voluptatibus alias nobis 
+                     cupiditate, corrupti pariatur aperiam at incidunt!</p>
+                     <a href="#">Continue reading</a>
+             </div>
+             <div class="sub-item">
+                 <div class="create">Modern</div>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat provident minus mollitia, 
+                     et reprehenderit quibusdam laborum voluptatibus alias nobis 
+                     cupiditate, corrupti pariatur aperiam at incidunt!</p>
+                     <a href="#">Continue reading</a>
+             </div>
+        </div>
+   </div>
+
+       </div>
+   
+</body>
+</html>

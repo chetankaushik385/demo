@@ -1,4 +1,5 @@
 * {
+    color:black;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,6 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    font-weight:bold;
 
 }
 
@@ -137,22 +139,28 @@ ul li a{
 
 
 .third{
-   display:flex;
-   
-    /*height:350px;*/
-    /*border:0.25px solid black;*/
+      
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color:beige !important;
+    
+    /*box-sizing: border-box;*/
+    
 }
 
 
 .all {
     padding:50px;
-       
+   
+ 
+    
 }
 .all div{
     /*border:1px solid grey;*/
     padding:10px;
     font-size:23px;
-    margin:30px;
+  /*  margin:30px;*/
     font-weight: bold;
     color:darkred;
     width:130px;
@@ -406,6 +414,7 @@ ul li a{
     flex-wrap:wrap;
     flex-direction:column;
     align-items:center;
+
 }
 
 .seventh .seventh-a img{
@@ -431,6 +440,7 @@ ul li a{
 .seventh .seventh-b .seventh-b1 h1{
     border:1px solid whitesmoke;
     border-radius:100px;
+    color:white;
     padding:10px;
     margin-right:100px;
 }
@@ -442,13 +452,18 @@ ul li a{
     font-size: 26px;
     text-align:justify;
     width:650px;
+    color: blanchedalmond;
 }
 
+.seventh .seventh-b .seventh-b2 p{
+    color: blanchedalmond !important;
+}
 
 .seventh .seventh-b .seventh-b3 h1{
     border:1px solid whitesmoke;
     border-radius:100px;
     padding:10px;
+    color:white;
     margin-left:100px;
     
 }
@@ -473,7 +488,8 @@ ul li a{
     flex-wrap:wrap;
     
     
-    padding:50px 170px;
+    /*padding:50px 170px;*/
+    padding: 50px 50px;
     margin-top:30px;
     
     
@@ -493,79 +509,85 @@ ul li a{
      font-weight: bolder;
 }
 
-.eight{
-    /*border:3px solid grey;*/
-    padding:200px;    
-    /*padding-bottom:100px;*/
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    background-color:bisque;
+.outer{
+    border:1px solid red;
+    padding:120px 0px;
+    background-color:darkkhaki;
+ }
+
+.container{
+
+
+width:1500px;
+display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+ margin:0px auto;
+ background-color:darkkhaki;
 }
 
-.eight-a{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    /*border:1px solid black;*/
-    padding:20px 50px;
-    /*margin:50px 150px;*/
+.nav-bar{
+background-color:darkkhaki;
+
+display:flex;
+flex-direction:row;
+ flex-wrap:wrap;
+ justify-content:space-between;
+ align-items:center;
+ 
+ 
 }
 
 .let{
-    font-size:45px;
-    font-weight: bolder;
+   font-size:27px;
 }
 
-.anch{
-    font-size:40px;
-}
-
-.eight-b{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    align-items:space-between;
-    /*padding:100px 40px;*/
-      padding:50px 30px;
-    
-    border:2px solid blue;
-    
+.all a{
+font-size:27px;
+color:black;
+font-weight:bolder;
 }
 
 .item{
-    
-    border:2px solid black;
-    
-    background-color:white;
-    padding:150px 50px;
-    
+
+display:flex;
+
+flex-direction:row;
+/*background-color: red;*/
+margin:0px auto;
+
+/*flex-wrap:wrap-reverse;*/
 }
 
-.item .sub-item{
-   border:1px solid grey; 
-    margin-bottom:80px;
-     /*padding:10px;*/
-    font-size:29px;
-    width:140px;
+.sub-item{
+margin:20px;
+background-color:azure;
+padding:50px;
+
+
 }
 
-.item .item-para{
-    font-size:34px;
-    
-    
-    margin-bottom:20px;
+.item .sub-item .create{
+border:1px solid black;
+width:120px;
+font-size:23px;
+color:black;
+padding:5px;
+margin-bottom:30px;
 }
 
-.eight .eight-b .item a {
-   /* padding:30px;*/
-    margin-bottom:70px;
-    font-size:28px;
-    color:red;
-    
+.item .sub-item p{
+margin-bottom:40px;
+  font-size:25px;
+  color: black;
 }
+
+.item .sub-item a{
+margin-bottom:30px;
+font-size:25px;
+}
+
+
 
 .finish{
     background-color:white;
