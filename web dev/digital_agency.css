@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+
+
+
 .back-img{
     /*border:1px solid black;*/
     /*height:500px;*/
@@ -481,8 +495,8 @@ ul li a{
 
 .eight{
     /*border:3px solid grey;*/
-    
-    padding-bottom:100px;
+    padding:200px;    
+    /*padding-bottom:100px;*/
     display:flex;
     flex-direction:column;
     flex-wrap:wrap;
@@ -496,7 +510,7 @@ ul li a{
     justify-content: space-between;
     /*border:1px solid black;*/
     padding:20px 50px;
-    margin:50px 150px;
+    /*margin:50px 150px;*/
 }
 
 .let{
@@ -514,38 +528,40 @@ ul li a{
     flex-wrap:wrap;
     justify-content:space-between;
     align-items:space-between;
-    /*padding:20px 40px;*/
-    margin:100px 150px;
+    /*padding:100px 40px;*/
+      padding:50px 30px;
     
-    /*border:2px solid blue;*/
+    border:2px solid blue;
+    
 }
 
 .item{
     
-    /*border:2px solid black;*/
+    border:2px solid black;
     
     background-color:white;
-    padding-bottom:100px;
+    padding:150px 50px;
+    
 }
 
 .item .sub-item{
    border:1px solid grey; 
-    margin:80px;
-    
+    margin-bottom:80px;
+     /*padding:10px;*/
     font-size:29px;
     width:140px;
 }
 
 .item .item-para{
     font-size:34px;
-    padding:30px;
-    margin:50px;
-    margin-right:0px;
+    
+    
+    margin-bottom:20px;
 }
 
 .eight .eight-b .item a {
-    padding:30px;
-    margin:50px;
+   /* padding:30px;*/
+    margin-bottom:70px;
     font-size:28px;
     color:red;
     
